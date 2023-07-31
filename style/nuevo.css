@@ -1,0 +1,25 @@
+
+.product__add{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form__add{
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+.form__add input {
+
+    padding: 1rem;
+    width: 80%;
+    height: 2rem;
+    margin: 1rem;
+}

@@ -1,0 +1,16 @@
+{
+  "producto": [
+    {
+      "imageUrl": "https://img.freepik.com/foto-gratis/configuracion-juegos-angulo-alto-interiores_23-2149829123.jpg?size=626&ext=jpg&ga=GA1.1.1582921061.1689809820&semt=ais",
+      "nombre": "PC Gamer AMD RYZEN",
+      "precio": 18700,
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    }
+  ]
+}

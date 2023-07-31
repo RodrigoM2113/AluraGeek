@@ -1,0 +1,52 @@
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.link{
+    color: #FFFFFF;
+}
+
+
+
+.link__prod{
+    color: red;
+}
+
+button {
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: #ffffff;
+   
+    
+}
+
+button:hover{
+    background-color: #0e20e2;
+    scale: 1.2;
+    
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h2{
+    font-size: 1rem;
+}
+input{
+
+    border-radius: 10px;
+    
+    background-color: #ebedf8;
+    border-width: 0 0 1px 0;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+.login__container{
+    background-image: url(../assets/img/wall1.jpeg);
+    text-align: center;
+    width: 100vw;
+             
+}
+
+
+.login__titulo{
+    margin: 1rem 0;
+    color: aliceblue;
+    font-size: 1.3rem;
+}
+
+.cuadro__entrar{
+
+    width: 60%;
+    height: 2.5rem;
+    border-radius: 5px;
+    margin: 1rem 0;
+    padding-left: .8rem;
+}
+
+.btn__entrar{
+    width: 6rem;
+    height: 3rem;
+    margin: 1rem;
+
+}
+

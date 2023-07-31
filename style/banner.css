@@ -1,0 +1,64 @@
+.banner{
+    width: 100vw;
+    position: relative;
+    align-content: space-around;
+    align-items: center;
+    line-height: 0;
+}
+
+.banner__img{
+
+    width: 100vw;
+}
+
+.banner__list{
+
+    position: absolute;
+    top: 20%;
+    line-height: .5rem;
+    color: bisque;
+    
+}
+
+
+.elemento__banner{
+
+    text-shadow: 1px 1px 2px black;
+    margin: 1rem;
+}
+
+.btn__banner{
+    width: 30%;
+    height: 2rem;
+    margin: 1rem;
+    
+    
+}
+
+@media (min-width: 768px) and (max-width: 2040px) { 
+
+    .banner__list{
+
+        
+        top: 40%;
+        line-height: 1.2rem;
+        color: bisque;
+        
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    .btn__banner{
+        width: 30%;
+        height: 3rem;
+        margin: 1rem;
+        font-size: 1rem;
+        
+        
+    }
+
+ }
+

@@ -1,0 +1,70 @@
+.header{
+
+    width: 100%;
+    
+    
+}
+
+
+.header__lista{
+
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: .5rem 0;
+ 
+}
+
+.lista__item{
+
+    width: calc(33% - 1rem);
+    
+}
+
+.logo{
+
+    width: 90%;
+    
+}
+
+.btn__login{
+
+    width: 60%;
+    height: 2REM;
+}
+
+.buscador{
+    height: 2rem;
+    width: 60%;
+    padding: 1rem;
+}
+
+
+@media (min-width: 768px) and (max-width: 2040px) { 
+
+    .logo{
+
+        width: 45%;
+        
+    }
+
+    
+    .buscador{
+        height: 2.5rem;
+        
+       
+    }
+    
+    .lista__item:nth-child(2){
+        order: +1;
+    }
+
+ }
+
+
+
+
+
+

@@ -1,0 +1,76 @@
+.sobre__nosotros{
+    background: #dfdcdc;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    
+    
+}
+
+.sobre__nosotros__lista{
+
+    line-height: 3rem;
+}
+
+.form{
+    
+    width: 100%;
+    margin: 1rem 0;
+}
+
+
+.input1{
+
+    margin: 1rem;
+    width: 80%; 
+    height: 3rem;
+    border-radius: 10px;
+    padding: 0 1rem;
+    
+}
+.input2{
+
+    margin: 1rem;
+    width: 80%;   
+    height: 5rem; 
+    border-radius: 10px;
+    padding: 0 1rem;
+}
+
+.msj__footer{
+    width: 8rem;
+    height: 3rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+    cursor: pointer;
+    
+}
+.contactanos{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+@media (min-width: 768px) and (max-width: 2040px) { 
+
+    .sobre__nosotros{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+
+    .form{
+        
+        width: 45%;
+        text-align: start;
+        
+    }
+    .msj__footer{
+       
+        margin: 0 1rem;
+        
+    } 
+    
+}
+

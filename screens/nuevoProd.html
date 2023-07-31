@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang = "es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Alura Geek</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel = "stylesheet" href = "../style/reset.css">
+        <link rel = "stylesheet" href ="../style/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../style/header.css">
+        <link rel="stylesheet" href="../style/about.css">
+        <link rel="stylesheet" href="../style/footer.css">
+        <link rel="stylesheet" href="../style/nuevo.css">
+
+        
+    </head>
+
+    <body>
+
+        <header class="header__nuevo">
+                  
+            <ul class="header__lista">
+                <li class="lista__item"><a href="../screens/index.html"><img class="logo" src="../assets/img/Logo.png" alt="Logo AluraGeek"></a></li>
+                <li><button class="btn__admin">Menu Administrador</button></li>
+                <li class="lista__item"><input class="buscador" type="search" placeholder="Buscar"><i class="fa-solid fa-magnifying-glass"></i></li>
+            </ul>                      
+
+        </header>
+
+
+        
+            
+        
+        <main>             
+
+            <section class="product__add">
+                <div class="product__add__titulo">Agregar producto</div>
+                <form class="form__add" data-form >
+                    <input
+                    name="urlImage" 
+                    id="url" 
+                    class="input__url" 
+                    type="text"
+                    placeholder="URL del producto" 
+                    required 
+                    data-url
+                    />
+                    <label class="input__label" for="urlImage">Url de la imagen</label>
+                    <span class="input__menssage__error">Este campo es requerido</span>
+                    
+                    <input 
+                    name="nombre"
+                    id="nombre"
+                    class="input__name" 
+                    type="text" 
+                    placeholder="Nombre del producto" 
+                    required 
+                    data-nombre
+                    />
+                    <label class="input_label" for="nombre">Nombre del producto</label>
+                    <span class="input__menssage__error">Este campo es requerido</span>
+
+                    <input 
+                    name="precio"
+                    id="precio"
+                    class="input__price" 
+                    type="text" 
+                    placeholder="Precio del producto" 
+                    required 
+                    data-precio
+                    />
+                    <label class="input_label" for="precio">Precio del producto</label>
+                    <span class="input__menssage__error">Este campo es requerido</span>
+
+                    <button type="submit"  class="btn__agregar">Agreagar</button>
+
+
+                </form>
+                        
+            </section>
+            
+            <section class = "sobre__nosotros">
+
+                <div>  
+                <img src="../assets/img/Logo.png" alt="Logo AluraGeek">
+                </div>  
+
+                <div class="sobre__nosotros__div">
+                    
+                    <ul class="sobre__nosotros__lista">
+
+                        <li ><a href="#" class ="items__about">Quienes Somos</a></li>
+                        <li ><a href="#" class ="items__about">Politica de Privacidad</a></li>
+                        <li ><a href="#" class ="items__about">Programa de Fidelidad</a></li>
+                        <li ><a href="#" class ="items__about">Nuestras Tiendas </a></li>
+                        <li ><a href="#" class ="items__about">Quiero ser Franquiciado</a></li>
+                        <li ><a href="#" class ="items__about">Anuncie Aqui</a></li>
+                
+                    </ul>
+                </div>
+
+                <div class="form" >
+                   <ul>
+                    <li><h2 class="contactanos">Envianos un Mensaje</h2></li>
+                    <li ><input class="input1" type="text" name="nombre" id="nombre" placeholder="Nombre"></li>
+                    <li ><input class="input2" type="text" name="mensaje" id="mensaje" placeholder="Escribe un Mensaje"></li>
+                    <button class="msj__footer" type="submit">Enviar mensaje</button>
+                   </ul>
+                </div>  
+            </section>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <script type="module" src="../controller/nuevoProducto-contrller.js"></script>
+    </main>
+
+        <footer class="footer container">
+
+            <h6 class="titulo__footer">Desarrollado por Rodrigo Mopsqueda <br> 2023 </h6>
+
+            
+    
+        </footer>
+
+    </body>
+
+   
+
+
+</html>

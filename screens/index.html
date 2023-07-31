@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang = "es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Alura Geek</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel = "stylesheet" href = "../style/reset.css">
+        <link rel = "stylesheet" href ="../style/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../style/header.css">
+        <link rel="stylesheet" href="../style/banner.css">
+        <link rel="stylesheet" href="../style/productos.css">
+        <link rel="stylesheet" href="../style/about.css">
+        <link rel="stylesheet" href="../style/footer.css">
+        
+    </head>
+
+    <body>
+
+            <header class="header">
+                  
+                <ul class="header__lista">
+                    <li class="lista__item"><a class="link" href="../screens/index.html"><img class="logo" src="../assets/img/Logo.png" alt="Logo AluraGeek"></a></li>
+                    <li class="lista__item"><button class="btn__login"><a class="link" href="../screens/login.html">Login</button></a></li>
+                    <li class="lista__item"><input class="buscador" type="search" placeholder="Buscar"><i class="fa-solid fa-magnifying-glass"></i></li>
+                </ul>                      
+         
+            </header>
+
+
+        
+            <div class="banner ">
+                <img class= "banner__img" src = "../assets/img/banner.jpeg" >
+                 <ul class="banner__list">
+                    
+                    <li class="banner_item"><h1 class="elemento__banner">Julio de Rebajas</h1></li>
+                    <li class="banner_item"><h2 class="elemento__banner">Productos seleccionados con grandes descuentos<h2></li>
+                    <li class="banner_item"><button class="btn__banner"><a class="link" href="../screens/laptop.html">Ver Portatiles</a></button></li>
+                </ul>
+            </div>    
+        
+        <main>             
+
+            <section class = "seccion__productos__encabezado" >
+                <div class="producto__tipo">
+                    <h3 class="titulo__section">De escritório</h3>
+                    <button class="btn__ver"><a class="link" href="../screens/escritorio.html">Ver todo</a></button>
+                </div>
+            </section>
+            <section class="seccion__productos" data-product >    
+
+                <div class="producto" >
+                                    
+                    <img class="producto__img"  src=https://img.freepik.com/foto-gratis/configuracion-juegos-angulo-alto-interiores_23-2149829123.jpg?size=626&ext=jpg&ga=GA1.1.1582921061.1689809820&semt=ais alt="Imagen de producto" >
+                    <h2 class="producto__titulo" >PC Gamer  </h2>
+                    <p class="price">15000 </p>
+                    <a class="link__prod" href="#">ver producto</a>
+                             
+                </div>
+                    
+
+            </section>  
+                        
+            
+            
+            <section class = "sobre__nosotros">
+
+                <div>  
+                <img src="../assets/img/Logo.png" alt="Logo AluraGeek">
+                </div>  
+
+                <div class="sobre__nosotros__div">
+                    
+                    <ul class="sobre__nosotros__lista">
+
+                        <li ><a href="#" class ="items__about">Quienes Somos</a></li>
+                        <li ><a href="#" class ="items__about">Politica de Privacidad</a></li>
+                        <li ><a href="#" class ="items__about">Programa de Fidelidad</a></li>
+                        <li ><a href="#" class ="items__about">Nuestras Tiendas </a></li>
+                        <li ><a href="#" class ="items__about">Quiero ser Franquiciado</a></li>
+                        <li ><a href="#" class ="items__about">Anuncie Aqui</a></li>
+                
+                    </ul>
+                </div>
+
+                <div class="form">
+                   <ul>
+                    <li><h2 class="contactanos">Envianos un Mensaje</h2></li>
+                    <li ><input class="input1" type="text" name="nombre" id="nombre" placeholder="Nombre"></li>
+                    <li ><input class="input2" type="text" name="mensaje" id="mensaje" placeholder="Escribe un Mensaje"></li>
+                    <button class="msj__footer" type="submit">Enviar mensaje</button>
+                   </ul>
+                </div>  
+            </section>
+    </main>
+   
+
+        <footer class="footer">
+
+            <h6 class="titulo__footer">Desarrollado por Rodrigo Mosqueda <br> 2023 </h6>
+
+            
+    
+        </footer>
+        <script type="module" src="../controller/producto-controller.js"></script>
+    </body>
+    
+    
+
+   
+
+
+</html>
