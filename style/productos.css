@@ -1,6 +1,9 @@
 .seccion__productos__encabezado{
-    padding: 1rem;
+    width: 100wv;
     background-image: url(../assets/img/wall3.jpeg) ;
+    line-height: 0;
+    
+        
 }
 .seccion__productos{
     background-image: url(../assets/img/wall3.jpeg) ;   
@@ -8,7 +11,7 @@
    grid-template-columns: repeat(auto-fit, min(400px, 100%));
    gap: 15px;
    
-   line-height: .5rem;
+   line-height: 0.5rem;
    place-content: center;
      
 }
@@ -22,18 +25,21 @@
     padding-bottom: 1rem;
     height: auto;
     background: #ffffff;
+    margin: 1rem;
 }
 
 .btn__ver{
-    width: 30%;
+    width: 5rem;
     height: 1rem;
 }
   
 .producto__tipo{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0 1rem;
     color: #ffffff;
+    padding-top: 1rem;
 }
 
 .titulo__section{
@@ -48,7 +54,7 @@
 
 .link__prod, .price, .producto__titulo{
     width: 100%;
-    padding: 1rem;
+    line-height: 1.5rem;
 }
 
 

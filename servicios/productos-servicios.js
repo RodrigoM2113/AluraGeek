@@ -5,7 +5,7 @@ const crearProducto = (imageUrl, nombre, precio) => {
         return fetch("http://localhost:3000/producto", {
         method:"POST",
         headers:{
-            "Conten-type": "application/json"
+            "Content-type": "application/json"
             
         },
         body: JSON.stringify({

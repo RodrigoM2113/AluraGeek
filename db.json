@@ -7,10 +7,10 @@
       "id": 1
     },
     {
-      "id": 2
-    },
-    {
-      "id": 3
+      "imageUrl": "https://img.freepik.com/foto-gratis/configuracion-juegos-angulo-alto-interiores_23-2149829123.jpg?size=626&ext=jpg&ga=GA1.1.1582921061.1689809820&semt=ais",
+      "nombre": "PC",
+      "precio": "65463",
+      "id": "5db14bfd-2794-4bf4-8d07-ea425526f467"
     }
   ]
 }
