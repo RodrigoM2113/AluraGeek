@@ -19,7 +19,7 @@
 .btn__login{
 
     width: 20vw;
-    height: 2REM;
+    height: 2rem;
 }
 
 
@@ -30,7 +30,7 @@
     left: 70vw;
     top: 2.5vw;
     
-    padding: ;
+    
 }
 
 .buscador{
@@ -52,7 +52,7 @@
     width: 1rem;
     height: 1rem;
     text-align: center;
-    cursor: pointer;
+   
     transition: .5s;
     
 }
